@@ -1,0 +1,265 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  
+
+}
+body{
+    overflow-x: hidden; /* Hide scrollbars */
+
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    background: linear-gradient(to right,#192655, #3876BF);
+    padding: 0 !important;
+}
+.collapse{
+justify-content: center;
+}
+.navbar-brand img{
+    width: 200px;
+    height: 60px;
+    padding-left: 20px;
+    
+}
+.navbar-nav li{
+    padding: 0 20px;
+
+}
+.navbar-nav li > a{
+    color: white;
+    font-weight: 500;
+    float: right;
+    text-align: left;
+}
+.navbar-nav li a:hover{
+    color: #cc8e51;
+}
+
+.navbar-toggler{
+    color: white;
+border: none;
+}
+#nav-bar .navbar-nav li.active > a {
+	color: #eab077;
+}
+#banner{
+    background: linear-gradient(to right,#192655, #3876BF);
+    color: white;
+}
+.panner-img{
+    width: 100%;
+    height: 100%;
+}
+.promo-title{
+   font-size: 40px; 
+   font-weight:600 ;
+   margin-top: 100px;
+
+}
+.btn{
+    background-color:#cc8e51 ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+}
+.btn:hover{
+    background-color:#2e64a1 ;
+    color: #fff;
+}
+.bottom-img{
+    width: 100%;
+}
+
+/*-----------------Majors us--------------------*/
+
+#Majors{
+    padding: 60px 0;
+    background-color: #bfcee0;
+
+}
+.Majors-img{
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-bottom: 5px solid #192655;
+
+}
+.Majors-img:hover{
+    transform: scale(1.1);
+
+}
+.Majors{
+   padding: 20px;
+}
+.Majors h4{
+    padding: 5px;
+    margin: 5px;
+    text-transform: uppercase;
+}
+.Majors h4:hover{
+    color: #cc8e51;
+cursor: pointer;
+}
+.title{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 500;
+
+}
+
+.title::before{
+    content: " ";
+    background:#192655 ;
+    height: 5px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: block;
+    transform: translateY(63px);
+}
+
+/* .title::after{
+    content: " ";
+    background:#192655 ;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+} */
+
+
+
+/*-----------------about us--------------------*/
+#about-us{
+
+margin: 50px;
+}
+#about-us h4{
+    margin-top: 5%;
+}
+.img-about{
+    margin-top: 5%;
+    border-radius: 10px;
+    border-bottom: 10px solid #cc8e51;
+
+
+}
+#about-us ul li{
+    margin: 10px 0;
+}
+
+/*-----------------testimonial--------------------*/
+#testimonial{
+    margin: 100px 0;
+}
+
+.testimonial{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-left: 4px solid #192655;
+}
+.testimonial img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 9px;
+}
+.user-details{
+    display: inline-block;
+    font-size: 12px;
+    vertical-align :middle;
+}
+
+/*-----------------social-media--------------------*/
+
+#social-media{
+    background-color: #bfcee0;
+    padding-top: 50px;
+}
+#social-media p{
+    font-size:  36px;
+    margin-bottom: 30px;
+}
+
+.social-icon img{
+width: 60px;
+transition: 0.5s;
+
+}
+.social-icon a:hover img {
+    transform: translateY(-10px);
+}
+
+/*-----------------footer--------------------*/
+#footer{
+    background: linear-gradient(to right,#192655, #3876BF);
+color: white;
+}
+.footer-img{
+    width: 100%;
+
+}
+.footer-box{
+    padding: 20px;
+}
+a :hover{
+    color: #cc8e51;
+    cursor: pointer;
+}
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box.fa-solid{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background: linear-gradient(to right,#192655, #3876BF);
+}
+.footer-box a :hover{
+    color: #cc8e51;
+}
+
+.footer-box .form-control{
+    box-shadow: none;
+    border: none;
+    margin-top: 25px;
+    max-width: 250px;
+    border-radius: 5px;
+
+}
+.footer-box .btn-primary{
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    
+
+}
+hr{
+    background-color: white;
+}
+.coprRight{
+margin-bottom: 0;
+padding-bottom: 20px;
+text-align: center;
+}
